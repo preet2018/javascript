@@ -1,7 +1,7 @@
 let temp = 0;
 console.log(temp);
 
-let temp1    //undefined value
+let temp1   //undefined value
 console.log(temp1);
 
 

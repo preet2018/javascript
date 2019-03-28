@@ -4,7 +4,7 @@
 const numbers = [1,2,3,4,5,6,7,8,9];
 
 console.log(numbers);
-console.log ([numbers.length]);
+console.log ([numbers.length-1]);
 console.log(numbers[0]);
 console.log(numbers[8]);
 console.log(numbers[numbers.length - 1]);
@@ -18,23 +18,23 @@ indexNumbers[0];
 
 //shift() method
 indexNumbers.shift()
-console.log(indexNumbers);
+console.log(indexNumbers,'shift');
 
 //unshift() method
 indexNumbers.unshift('preeti');
-console.log(indexNumbers);
+console.log(indexNumbers,'unshift');
 
 //--------from ENd of the array-------//
 
 //pop() method
 indexNumbers.pop();
-console.log(indexNumbers);
+console.log(indexNumbers,'pop');
 
 //push() method
 indexNumbers.push('four');
-console.log(indexNumbers)
+console.log(indexNumbers,'push')
 
 //------ from middle of the array ---//
 
 indexNumbers.splice(1,2,'khavekar');   //here 1 is postion of index array and two is selected to replace value
-console.log(indexNumbers);
+console.log(indexNumbers,'splice');
